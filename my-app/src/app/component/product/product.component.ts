@@ -2,11 +2,11 @@ import { Component, Input, EventEmitter, Output ,OnInit} from '@angular/core';
 import { Product } from '../../../type';
 import { RatingModule } from 'primeng/rating';
 import { FormsModule } from '@angular/forms';
-
+import { ButtonModule } from 'primeng/button';
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [FormsModule, RatingModule],
+  imports: [FormsModule, RatingModule,ButtonModule],
   templateUrl: './product.component.html',
   styleUrl: './product.component.scss',
 })
